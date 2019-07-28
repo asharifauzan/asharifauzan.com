@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class array {
+public class ArraySort {
     public static void main(String[] args) {
         
         int [] array = {1, 3, 81, 2, 22, 79};
