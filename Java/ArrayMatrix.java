@@ -1,4 +1,4 @@
-class arraymatrix {
+class ArrayMatrix {
     public static void main (String[] args){
         int matrix1[][] = new int[2][2];
         matrix1[0][0] = 5;
