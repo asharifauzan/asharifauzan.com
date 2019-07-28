@@ -4,32 +4,34 @@ class Node {
     Node next;
     void info() {
         System.out.println(" ");
-        System.out.println("NILAI :"+this.data);
-        System.out.println("POINTER "+this);
+        System.out.println("NILAI : " + this.data);
+        System.out.println("POINTER " + this);
     }
 }
 
 public class DoubleLinkedList {
     static Node head = null, tail = null;
-    static void push(Node node_baru) {
-        if (head == null && tail == null) {
+    static void push (Node node_baru) {
+        if ( head == null && tail == null ) {
             head = node_baru;
             tail = node_baru;
-        }else {
-            node_baru.prev  = tail;
+        }
+        else {
+            node_baru.prev = tail;
             tail.next = node_baru;
             tail = node_baru;
         }
     }
+
     public static void main(String[] args) {
         Node ana = new Node();
-        ana.data= "Ana";
+        ana.data = "ANA";
         Node Nana = new Node();
-        Nana.data= "Nana";
+        Nana.data = "NANA";
         Node Fana = new Node();
-        Fana.data= "Fana";
+        Fana.data = "FANA";
         Node Sana = new Node();
-        Sana.data= "Sana";
+        Sana.data = "SANA";
         push(ana);
         push(Nana);
         push(Fana);
