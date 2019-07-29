@@ -3,7 +3,7 @@
 <font color=green>
 <marquee><h1>WELCOME TO MY GITHUB REPOSITORY</h1></marquee>
 <br>
-<img src="index.png">
+  <a href="istn.ac.id"><img src="index.png"></a>
 <pre>
 NAMA  : FAUZAN HIBATULLAH ASHARI
 NIM   : 18360032
